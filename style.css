@@ -1,0 +1,85 @@
+#body{
+    background-image: url("Background.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#message{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+#LoginZone{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#submitbutton{
+    font-size: 30px;
+    border: 2px solid hsl(0, 0%, 65%);
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#submitbutton:hover{
+    border: 2px solid hsl(0, 0%, 35%);
+    background-color: hsl(0, 0%, 70%);
+    cursor: pointer;
+}
+
+.input{
+    border-radius: 25px;
+    border: 1.5px solid rgb(36, 167, 255);
+}
+
+#PasswordBody{
+    background-image: url("PasswordBackground.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.Label{
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#ScreenBody{
+    background-image: url("ScreenWallpaper.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#IconsBar{
+    background-color: grey;
+}
+
+.Icon{
+    width: 12vw;
+    height: 25vh;
+}
+
+.IconLabel{
+    font-size: 3vh;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    position: fixed;
+}
+
+.Icon:hover{
+    cursor: pointer;
+}
+
+#BlueScreen{
+    background-image: url("Bluescreen.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
